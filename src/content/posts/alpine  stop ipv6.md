@@ -1,7 +1,7 @@
 ---
 title: Alpine关闭ipv6
 published: 2025-10-07
-description: 某些alpine v6入v4出导致节点异常.
+description: 某些alpine双栈导致节点异常.
 tags: [alpine]
 category: Front-end
 draft: false
