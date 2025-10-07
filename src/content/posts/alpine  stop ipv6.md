@@ -1,3 +1,13 @@
+---
+title: Alpine关闭ipv6
+published: 2025-10-07
+description: This is the first post of my new Astro blog.
+tags: [alpine]
+category: Front-end
+draft: false
+---、
+
+
 ```bash
 
 echo "net.ipv6.conf.all.disable_ipv6 = 1" >> /etc/sysctl.conf
