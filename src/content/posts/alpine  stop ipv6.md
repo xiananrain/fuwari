@@ -34,8 +34,4 @@ echo 'sysctl -p' >> /etc/local.d/sysctl.start
 chmod +x /etc/local.d/sysctl.start
 rc-update add local default
 ```
-\
-手动验证是否正常运行
-```bash
-/etc/init.d/sysctl-load start
-```
+
