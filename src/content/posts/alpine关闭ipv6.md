@@ -1,7 +1,6 @@
 ```bash
 
 echo "net.ipv6.conf.all.disable_ipv6 = 1" >> /etc/sysctl.conf
-\
 echo "net.ipv6.conf.default.disable_ipv6 = 1" >> /etc/sysctl.conf
 
 ```
@@ -25,11 +24,7 @@ cat /proc/sys/net/ipv6/conf/all/disable_ipv6
 \
 ```bash
 echo '#!/bin/sh' > /etc/local.d/sysctl.start
-\
 echo 'sysctl -p' >> /etc/local.d/sysctl.start
-\
 chmod +x /etc/local.d/sysctl.start
-\
 rc-update add local default
-\
 ```
