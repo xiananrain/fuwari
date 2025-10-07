@@ -7,6 +7,7 @@ echo "net.ipv6.conf.default.disable_ipv6 = 1" >> /etc/sysctl.conf
 '''
 \
 立即执行
+\
 '''
 sysctl -p
 '''
